@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace bulkio.Entities
 {
-    class SelectorArray
+    public class SelectorArray
     {
         public string PostLink;
         public bool UsePostLinkForImageUri;

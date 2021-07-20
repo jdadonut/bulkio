@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace bulkio.Entities
 {
-    class PaginationSetup
+    public class PaginationSetup
     {
         public int PaginationIncrease;
         public int PaginationStart;

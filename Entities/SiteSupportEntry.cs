@@ -2,13 +2,15 @@ using System;
 using System.Collections.Generic;
 namespace bulkio.Entities
 {
-    class SiteSupportEntry
+    public class SiteSupportEntry
     {
         public List<string> SiteAliases;
         public string BaseURI;
+        public string PostUriTemplate;
+        public bool UseBaseUriInSearch;
         public SelectorArray Selectors;
         public PaginationSetup Pagination;
-        public CensorshipOptions CensorshipOptions;
+        public CensorshipOptions Censorship;
 
     }
 }
